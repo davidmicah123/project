@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+.brand{
+    font-size: 7vh;
+    padding-left: 3vw;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+.navbar{
+    display: flex;
+    height: 15vh;
+    background-color: coral;
+    box-shadow: 3px 3px 5px black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+
+}
+.navbar ul li{
+    padding-left: 3vw;
+    padding-top: 5vh;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+.hero_image{
+    background-image: url('skype2.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.brief_intro{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    grid-gap: 1vw;
+}
+.hint_img{
+    width: 30vw;
+}
+.brief_text{
+    font-size: 5vh;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.do_faq{
+    font-size: 15vh;
+    text-align: center;
+}
+
+
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+}
+.video{
+    position: absolute;
+    left: 55vw;
+    margin-top: 13vh;
+    height: 32vh;
+    
+}
+.wow{
+    width: 40vw;
+}
+.card1{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    padding-left: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 80vh;
+    background-color: rgb(216, 213, 213);
+    padding-top: 5vh;
+}
+.footer ul{
+    list-style-type: none;
+}
+.all_list{
+    padding-left: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.reserved_rights{
+    text-align: center;
+    background-color: white;
+    padding: 2vh;
+    position: relative;
+    top: 15vh;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
+}
