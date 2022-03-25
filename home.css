@@ -8,10 +8,10 @@ body{
 .brand{
     font-size: 7vh;
     padding-left: 3vw;
-    padding-top: 3vh;
+    padding-top: vh;
     padding-bottom: 2vh;
 }
-.navbar{
+/* .navbar{
     display: flex;
     height: 15vh;
     background-color: #5577B4;
@@ -33,7 +33,7 @@ body{
     color: black;
     text-decoration: none;
     font-size: 4vh;
-}
+} */
 
 .hero_image{
     background-image: url('skype2.jpg');
@@ -57,7 +57,7 @@ body{
     width: 30vw;
 }
 .brief_text{
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
 }
 
@@ -67,14 +67,24 @@ body{
 .about_hint{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin-left: 6vw;
+    grid-gap: 3vw;
+}
+.about_heading{
+    font-size: 4vh;
 }
 .about_img{
     width: 40vw;
+    height: 60vh;
 }
 .grid_lists{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 40vw;
+}
+.grid_lists li{
+    list-style: none;
 }
 .statistics{
     display: grid;
@@ -172,7 +182,7 @@ body{
     color: #999999;
     margin-top: 1vh;
     margin-bottom: 3vh;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .activity_btn{
     border: 0;
@@ -246,13 +256,13 @@ body{
     font-size: 3vh;
 }
 .news_writter{
-    font-size: 3vh;
+    font-size: 2vh;
     color: #999999;
 }
 .main_news{
     margin-top: 2vh;
     color: #999999;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 .blog_header{
@@ -268,9 +278,23 @@ body{
 }
 
 
-
-
-
+.testimonial_heading{
+    text-align: center;
+}
+.happy_students{
+    text-align: center;
+}
+.testimonial_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3vw;
+    width: 80vw;
+    margin-left: 10%;
+}
+.email_subscription{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 
