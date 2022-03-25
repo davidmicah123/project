@@ -64,8 +64,23 @@ body{
 
 
 
-
-
+.about_hint{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about_img{
+    width: 40vw;
+}
+.grid_lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40vw;
+}
+.statistics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10vw;
+}
 
 
 
@@ -196,6 +211,68 @@ body{
     width: 4vw;
     border-radius: 50%;
 }
+
+
+
+
+.brief_intro{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    grid-gap: 1vw;
+    margin-left: 5vw;
+}
+
+
+.news_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    width: 85vw;
+    margin-left: 6vw;
+    margin-top: 5vh ;
+    margin-bottom: 5vh;
+}
+.news-card1{
+    width: 27vw;
+    padding: 1vh;
+}
+.news_img{
+    width: 27vw;
+}
+.news_heading{
+    font-size: 3vh;
+}
+.news_writter{
+    font-size: 3vh;
+    color: #999999;
+}
+.main_news{
+    margin-top: 2vh;
+    color: #999999;
+    font-size: 3vh;
+}
+
+.blog_header{
+    position: relative;
+    top: 40vh;
+    text-align: center;
+}
+.blogger{
+    position: relative;
+    top: 40vh;
+    text-align: center;
+    font-size: 5vh;
+}
+
+
+
+
+
+
+
 
 
 
