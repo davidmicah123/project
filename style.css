@@ -14,7 +14,7 @@ body{
 .navbar{
     display: flex;
     height: 15vh;
-    background-color: coral;
+    background-color: #5577B4;
     box-shadow: 3px 3px 5px black;
     position: fixed;
     width: 100%;
@@ -108,6 +108,94 @@ body{
 
 
 
+
+.services{
+    background: #F8F9FA;
+    padding: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.our_services{
+    text-align: center;
+    font-size: 7vh;
+    padding: 2vh 0;
+}
+.what_we_do{
+    text-align: center;
+    font-size: 5vh;
+    padding: 2vh 0;
+}
+.activity_grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin-left: 5vw;
+}
+.activity_grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin-left: 5vw;
+}
+.activity_card_1{
+    width: 25vw;
+    height: 40vh;
+    text-align: center;
+    border-radius: 0.2em;
+    box-shadow: 3px 3px 5px black;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 2vh;
+}
+.growth{
+    font-size: 4vh;
+    color: black;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.activity_card_text{
+    color: #999999;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    font-size: 4vh;
+}
+.activity_btn{
+    border: 0;
+    padding: 2vh;
+    color: white;
+    border-radius: 0.2em;
+    background: #5577B4;
+}
+
+
+
+
+.help{
+    background-image: url('images/hero_1.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 5vh 0;
+}
+.help_text{
+    font-size: 8vh;
+}
+.help_content{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 35vh;
+}
+.bio{
+    display: flex;
+}
+.testifier{
+    height: 5vh;
+    width: 4vw;
+    border-radius: 50%;
+}
 
 
 
