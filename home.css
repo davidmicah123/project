@@ -43,7 +43,7 @@ body{
     z-index: 1;
 }
 .hero_image{
-    background-image: url('images/e-learning2.jpg');
+    background-image: url('images/web1.jpg');
     width: 100%;
     height: 80vh;
     background-size: cover;
@@ -51,11 +51,12 @@ body{
     background-position: center;
 }
 .banner{
-    width: 20vw;
+    width: 18vw;
+    height: 17vh;
     position: absolute;
-    left: 47vw;
-    top: 18vh; 
-    border-radius: 0.3em;
+    left: 77vw;
+    top: 13vh; 
+    border-radius: 0.5em;
 }
 
 .brief_intro{
@@ -407,11 +408,29 @@ body{
     font-size: 3vh;
 }
 
+
+
+.sub{
+    background-image: url("images/crystal2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    padding: 4vh 0;
+    color: white;
+}
 .email_subscription{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 80vw;
     margin-left: 8vw;
+}
+.email_grid h1{
+    font-size: 4vh;
+}
+.subscribe_text{
+    font-size: 3vh;
 }
 .email_form{
     position: relative;
@@ -447,7 +466,10 @@ body{
 .connection_text{
     display: grid;
     grid-template-columns:  1fr;
-    justify-content: center;
+    align-content: center;
+}
+.connect{
+    font-size: 5vh;
 }
 
 
