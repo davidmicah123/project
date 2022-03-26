@@ -10,6 +10,7 @@ body{
     padding-left: 3vw;
     padding-top: vh;
     padding-bottom: 2vh;
+    z-index: 2;
 }
 /* .navbar{
     display: flex;
@@ -34,16 +35,28 @@ body{
     text-decoration: none;
     font-size: 4vh;
 } */
-
+.navbar{
+    width: 100vw;
+    position: relative;
+    height: 12vh;
+    color: white;
+    z-index: 1;
+}
 .hero_image{
-    background-image: url('images/education.jpg');
+    background-image: url('images/e-learning2.jpg');
     width: 100%;
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.banner{
+    width: 20vw;
+    position: absolute;
+    left: 47vw;
+    top: 18vh; 
+    border-radius: 0.3em;
+}
 
 .brief_intro{
     margin-top: 5vh;
@@ -55,6 +68,17 @@ body{
 }
 .hint_img{
     width: 30vw;
+    height: 45vh;
+    overflow: hidden;
+    transition: 1s;
+}
+.hint_img1 img:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.hint_img2 img:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
 .headset{
     width: 10vw;
@@ -232,10 +256,13 @@ body{
     text-align: center;
     border-radius: 0.2em;
     background-color: white;
-    box-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.349);
     margin-top: 3vh;
     margin-bottom: 3vh;
     padding: 2vh;
+}
+.activity_card_1:hover{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.103);
 }
 .growth{
     font-size: 4vh;
@@ -255,9 +282,12 @@ body{
     color: white;
     border-radius: 0.2em;
     background: #5577B4;
+    transition: 2s;
 }
-
-
+.activity_btn:hover{
+    padding: 2.5vh;
+    background-color: #0353e7;
+}
 
 
 .help{
@@ -318,8 +348,15 @@ body{
 }
 .news_img{
     width: 27vw;
+    transition: 2s;
 }
+.news-card1 img:hover{
+    transform: scale(0.97);
+    cursor: pointer;
+}
+
 .news_heading{
+    padding-top: 2vh;
     font-size: 3vh;
 }
 .news_writter{
