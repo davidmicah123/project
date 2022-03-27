@@ -11,24 +11,24 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar scroll</a>
+        <a class="navbar-brand" href="index.html">Study Assistant</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                 Blog
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">sport</a></li>
+                <li><a class="dropdown-item" href="blog.html">sport</a></li>
                 <li><a class="dropdown-item" href="#">Fruit</a></li>
                 <li><a class="dropdown-item" href="#">Rest</a></li>
                 <li><a class="dropdown-item" href="#">Game</a></li>
@@ -39,20 +39,20 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Link</a>
+              <a class="nav-link active">Link</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          
         </div>
       </nav>
+  
 
     <div class="hero_image">
-        <h1 class="blog_header">Blog</h1>
-        <h1 class="blogger">Read About new improvements and development <br> on how audion has helped learning</h1>
-
+       <div class="blog_text">
+            <h1 class="blog_header">Blog</h1>
+            <h1 class="blogger">Read About new improvements and development <br> on how audion has helped learning</h1>
+            <button class="get_started">Get Started</button>
+       </div>
     </div>
 
 
@@ -120,8 +120,10 @@
     </div>
      -->
 
-     <button class="fruit">Fruits</button> <button class="rest">rest</button> <button class="games">Games</button><button class="hangout">Hangout</button><button class="coffee">Coffee</button>
-    <div class="sport_div">
+     <div class="btn_div">
+        <button class="sport all_btn">Sport</button><button class="fruit all_btn">Fruits</button> <button class="rest all_btn">rest</button> <button class="games all_btn">Games</button><button class="hangout all_btn">Hangout</button><button class="coffee all_btn">Coffee</button>
+    </div>
+     <div class="sport_div">
         <h1 class="sport_importace_h1">Imortance of sport in Students life</h1>
         <img src="images/sport_importance.jpg" class="sport_img" alt="">
         <h1 class="sport_sub_headings"> Sports Activities Can Develop Specific Skills</h1>

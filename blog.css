@@ -7,6 +7,20 @@
 body{
     scroll-behavior: smooth;
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 5vh;
+    padding-left: 3vw;
+    padding-bottom: 2vh;
+    z-index: 2;
+    margin-right: 2vw;
+    font-weight: bolder;
+    color: #0353e7;
+}
 /* .brand{
     font-size: 7vh;
     padding-left: 3vw;
@@ -45,6 +59,26 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     z-index: 2;
+}
+.blog_header{
+    font-size: 15vh;
+    text-align: center;
+}
+.blogger{
+    font-size: 5vh;
+    text-align: center;
+}
+.blog_text{
+    position: relative;
+    top: 20vh;
+    text-align: center;
+}
+.get_started{
+    padding: 1vh;
+    color: white;
+    background-color: #0353e7;
+    border: 0;
+    border-radius: 0.2vw;
 }
 
 /* 
@@ -100,6 +134,22 @@ body{
     font-size: 5vh;
 } */
 
+.btn_div{
+    display: flex;
+    justify-content: center;
+    margin-right: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.all_btn{
+    padding: 1vh;
+    color: white;
+    background-color: #0353e7;
+    border: 0;
+    border-radius: 0.2em;
+    width: 7vw;
+    margin-left: 1vw;
+}
 
 .sport_div{
     width: 85vw;
@@ -112,9 +162,15 @@ body{
 }
 .sport_img{
     width: 85vw;
+    height: 80vh;
+    transition: 1s;
+}
+.sport_div img:hover{
+    transform: scale(0.97);
+    cursor: pointer;
 }
 .main_sport_text{
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .sport_sub_headings{
     font-size: 5vh;

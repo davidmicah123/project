@@ -6,11 +6,26 @@ body{
     scroll-behavior: smooth;
 }
 .brand{
+}
+.navbar-brand{
     font-size: 7vh;
     padding-left: 3vw;
     padding-top: vh;
     padding-bottom: 2vh;
     z-index: 2;
+    margin-right: 2vw;
+    font-weight: bolder;
+    color: #0353e7;
+}
+.signup_btn{
+    color: white;
+    border: 0;
+    padding: 1vh;
+    background-color: #0353e7;
+    width: 10vw;
+    border-radius: 0.2em;
+    font-size: 3vh;
+    margin-right: 2vw;
 }
 /* .navbar{
     display: flex;
@@ -36,8 +51,8 @@ body{
     font-size: 4vh;
 } */
 .navbar{
-    width: 100vw;
-    position: relative;
+    width: 100%;
+    position: fixed;
     height: 12vh;
     color: white;
     z-index: 1;
@@ -71,7 +86,7 @@ body{
     width: 30vw;
     height: 45vh;
     overflow: hidden;
-    transition: 1s;
+    transition: all 0.5s;
 }
 .hint_img1 img:hover{
     transform: scale(1.03);
@@ -99,9 +114,22 @@ body{
     margin-left: 6vw;
     grid-gap: 3vw;
     height: 80vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .about_heading{
     font-size: 4vh;
+}
+.about_card1{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+.about_card2{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    padding-top: 5vh;
 }
 .about_video{
     width: 40vw;
@@ -119,6 +147,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 10vw;
+    margin-bottom: 5vh;
 } 
 .number_count{
     color: #5577B4;
@@ -177,10 +206,10 @@ body{
 }
 
 .pannel li:hover div.front{
-    animation: flip 0.2s ease-out forwards ;
+    animation: flip 0.2s ease-out forwards;
 }
 .pannel li:hover div.back{
-    animation: flip 0.2s 0.2s ease-out forwards reverse;
+    animation: flip 0.2s ease-out forwards reverse;
 }
 
 @keyframes flip {
@@ -283,7 +312,7 @@ body{
     color: white;
     border-radius: 0.2em;
     background: #5577B4;
-    transition: 2s;
+    transition: all 0.3s;
 }
 .activity_btn:hover{
     padding: 2.5vh;
@@ -473,7 +502,11 @@ body{
 }
 
 
-
+.accordion{
+    width: 70vw;
+    margin: auto;
+    margin: 5vh auto;
+}
 
 .footer{
     height: 80vh;
