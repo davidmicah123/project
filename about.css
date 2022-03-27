@@ -91,6 +91,9 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 10vw;
 }
+.number_count{
+    color: #0078ca;
+}
 
 
 
@@ -101,6 +104,10 @@ body{
 
 .our_partners_header{
     text-align: center;
+    position: relative;
+    top: 10vh;
+    font-size: 7vh;
+    color: #0078ca;
 }
 .our_partners{
     display: grid;
