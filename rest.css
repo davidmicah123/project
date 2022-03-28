@@ -11,7 +11,6 @@ body{
     position: fixed;
     width: 100%;
     z-index: 1;
-    height: 12vh;
 }
 .navbar-brand{
     font-size: 5vh;
@@ -22,35 +21,6 @@ body{
     font-weight: bolder;
     color: #0353e7;
 }
-/* .brand{
-    font-size: 7vh;
-    padding-left: 3vw;
-    padding-top: 3vh;
-    padding-bottom: 2vh;
-} */
-/* .navbar{
-    display: flex;
-    height: 15vh;
-    background-color: #5577B4;
-    box-shadow: 3px 3px 5px black;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-} */
-/* .navbar ul{
-    display: flex;
-    list-style: none;
-
-}
-.navbar ul li{
-    padding-left: 3vw;
-    padding-top: 5vh;
-} */
-/* .navbar ul li a{
-    color: black;
-    text-decoration: none;
-    font-size: 4vh;
-} */
 
 .hero_image{
     background-image: url('images/hero_2.jpg');
@@ -82,58 +52,7 @@ body{
     border-radius: 0.2vw;
 }
 
-/* 
-.brief_intro{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
-    grid-gap: 1vw;
-    margin-left: 5vw;
-}
 
-
-.news_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2vw;
-    width: 85vw;
-    margin-left: 6vw;
-    margin-top: 5vh ;
-    margin-bottom: 5vh;
-}
-.news-card1{
-    width: 27vw;
-    padding: 1vh;
-}
-.news_img{
-    width: 27vw;
-}
-.news_heading{
-    font-size: 3vh;
-}
-.news_writter{
-    font-size: 3vh;
-    color: #999999;
-}
-.main_news{
-    margin-top: 2vh;
-    color: #999999;
-    font-size: 3vh;
-}
-
-.blog_header{
-    position: relative;
-    top: 40vh;
-    text-align: center;
-}
-.blogger{
-    position: relative;
-    top: 40vh;
-    text-align: center;
-    font-size: 5vh;
-} */
 
 .btn_div{
     display: flex;
