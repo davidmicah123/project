@@ -7,6 +7,14 @@ body{
 }
 .brand{
 }
+/* .navbar{
+    display: flex;
+    height: 15vh;
+    background-color: #5577B4;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+} */
 .navbar-brand{
     font-size: 7vh;
     padding-left: 3vw;
@@ -26,6 +34,18 @@ body{
     border-radius: 0.2em;
     font-size: 3vh;
     margin-right: 2vw;
+    position: absolute;
+    left: 80vw;
+}
+.signin_link{
+    color: white;
+    text-decoration: none;
+}
+.signin_link:hover{
+    color: white;
+}
+#carouselExampleIndicators{
+    margin-top: 20;
 }
 /* .navbar{
     display: flex;

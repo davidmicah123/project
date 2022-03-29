@@ -1,0 +1,15 @@
+.table, th, td {
+    border: 1px solid black;
+    border-style: solid;
+  }
+.table, td {
+    padding: 2vh;
+}
+.days{
+    font-size: 4vh;
+    font-weight: bold;
+}
+.timetable{
+    text-align: center;
+    font-size: 5vh;
+}
