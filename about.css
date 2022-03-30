@@ -7,7 +7,15 @@ html{
 }
 body{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    margin-top: 12vh;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 12vh;
+    color: white;
+    z-index: 1;
 }
 .navbar-brand{
     font-size: 5vh;
@@ -17,6 +25,9 @@ body{
     z-index: 2;
     margin-right: 2vw;
     color: #0353e7;
+}
+.carousel_img{
+    height: 88vh;
 }
 /* .navbar{
     display: flex;
@@ -42,7 +53,7 @@ body{
     font-size: 4vh;
 } */
 
-.hero_image{
+/* .hero_image{
     background-image: url('images/crystal1.jpg');
     width: 100%;
     height: 80vh;
@@ -50,7 +61,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 5vh;
-}
+} */
 .about_us{
     font-size: 25vh;
     color: white;
@@ -59,21 +70,21 @@ body{
     top: 24vh;
 }
 
-.brief_intro{
+/* .brief_intro{
     margin-top: 5vh;
     margin-bottom: 5vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     grid-gap: 1vw;
-}
-.hint_img{
+} */
+/* .hint_img{
     width: 30vw;
 }
 .brief_text{
     font-size: 4vh;
     text-align: center;
-}
+} */
 
 
 
@@ -84,6 +95,7 @@ body{
     width: 80vw;
     margin-left: 6vw;
     grid-gap: 3vw;
+    margin-top: 4vh;
 }
 .about_heading{
     font-size: 4vh;
@@ -91,6 +103,11 @@ body{
 .about_img{
     width: 40vw;
     height: 60vh;
+}
+.about_card2{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
 }
 .grid_lists{
     display: grid;
@@ -141,6 +158,7 @@ body{
     width: 70vw;
     position: absolute;
     top: 340vh;
+    margin-top: 7vh;
 
 }
 .parthership_video1{
@@ -348,7 +366,10 @@ body{
     border-radius: 0.2em;
     background: #5577B4;
 }
-
+.activity_btn:hover{
+    padding: 2.5vh;
+    background-color: #0353e7;
+}
 
 
 
@@ -389,7 +410,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 3vh;
-    margin-bottom: 2vh;
     padding: 4vh 0;
     color: white;
 }
@@ -415,8 +435,8 @@ body{
     height: 6vh;
 }
 .send{
-    width: 5vw;
-    padding: 1vh;
+    width: 9vw;
+    padding: 0.5vh;
     border: 0;
     border-radius: 0.2em;
     background-color: #5577B4;
@@ -429,7 +449,7 @@ body{
 
 
 .footer{
-    height: 80vh;
+    height: 75vh;
     background-color: rgb(216, 213, 213);
     padding-top: 5vh;
 }
@@ -446,7 +466,6 @@ body{
     background-color: white;
     padding: 2vh;
     position: relative;
-    top: 15vh;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
 }
 
@@ -464,8 +483,146 @@ body{
 
 
 
+@media (max-width: 1000px) {
+    .our_partners2{
+        margin-top: 7vh;
+    }
+    .no_grid{
+        
+    }
+    .our_partners{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10vw;
+        grid-gap: 3vw;
+        width: 70vw;
+    
+    }
+    .services{
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 700px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 15vh;
+        color: white;
+        z-index: 1;
+        background-color: white;
+    }
+    .collapse{
+        background-color: white;
+    }
+    .about_hint{
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-top: 3vh;
+    }
+    .about_img{
+        width: 85vw;
+    }
+    .no_grid{
+        display: none;
+    }
+    .our_partners2{
+        display: none;
+    }
+    .all_services{
+        margin-top: 0;
+    }
+    .our_partners{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10vw;
+        height: 50vh;
+        grid-gap: 3vw;
+        width: 70vw;
     
+    }
+    .our_partners2{
+        display: none;
+    }
+    .parthership_video1{
+        width: 39vw;
+        height: 70vh;
+    }
+    .parthership_video2{
+        width: 36.5vw;
+        height: 70vh;
+    }
+    .our_partners_header{
+        text-align: center;
+        position: relative;
+        top: 16vh;
+        font-size: 7vh;
+        color: #0078ca;
+    }
+    .leader_images1{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-left: 17vw;
+        grid-gap: 5vw;
+        width: 80vw;
+        position: relative;
+        top: 10vh;
+    }
+    .special_leader{
+        margin-left: 3vw;
+    }
+    .leader1{
+        width: 10vw;
+        border-radius: 50%;
+    }
+    .activity_grid1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        margin-left: 0vw;
+        grid-gap: 1vw;
+    }
+    .activity_grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        margin-left: 0vw;
+        grid-gap: 1vw;
+    }
+    .activity_card_1{
+        width: 45vw;
+        height: 45vh;
+        text-align: center;
+        border-radius: 0.2em;
+        border: 1px solid black;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 2vh;
+    }
+    .services{
+        margin-left: 0;
+    }
+    .email_grid h1{
+        font-size: 2vh;
+    }
+    .subscribe_text{
+        font-size: 3vh;
+    }
 }

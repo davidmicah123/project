@@ -6,9 +6,12 @@
 
 body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin-top: 12vh;
 }
 .navbar{
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
     height: 12vh;
@@ -192,7 +195,7 @@ body{
 
 
 .footer{
-    height: 80vh;
+    height: 75vh;
     background-color: rgb(216, 213, 213);
     padding-top: 5vh;
 }
@@ -209,7 +212,6 @@ body{
     background-color: white;
     padding: 2vh;
     position: relative;
-    top: 15vh;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
 }
 

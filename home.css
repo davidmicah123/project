@@ -519,13 +519,13 @@ body{
     left: 3vw;
 }
 .email_input{
-    width: 30vw;
+    width: 25vw;
     height: 6vh;
 }
 .send{
-    width: 7vw;
+    width: 9vw;
     height: 6vh;
-    padding: 1vh;
+    padding: 0.5vh;
     border: 0;
     border-radius: 0.2em;
     background-color: #5577B4;
@@ -561,7 +561,7 @@ body{
 }
 
 .footer{
-    height: 80vh;
+    height: 70vh;
     background-color: rgb(216, 213, 213);
     padding-top: 5vh;
 }
@@ -1203,10 +1203,13 @@ body{
         width: 80%;
         grid-gap: 2vw;
         position: absolute;
-        top: 294vh;
+        top: 296vh;
         left: 0;
         margin-right: 3vw;
         margin-right: 2vw;
+    }
+    .statistic_name{
+        font-size: 3vh;
     }
     .no_five_hundred{
         display: none;
