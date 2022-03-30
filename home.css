@@ -497,7 +497,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 3vh;
-    margin-bottom: 2vh;
     padding: 4vh 0;
     color: white;
 }
@@ -586,7 +585,46 @@ body{
 
 
 
-
+@media (max-width: 1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin-top: 18vh;
+    }
+    .banner{
+        top: 22vh;
+    }
+    html{
+        overflow-x: hidden;
+        max-width: 100%;
+        /* display: none; */
+    }
+    .navbar-brand{
+        font-size: 5VW;
+    }
+    nav{
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 15vh;
+        color: white;
+        z-index: 1;
+    }
+    .navbar{
+        height: 18vh;
+    }
+    .audio_power_div{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 1vw;
+        width: 80vw;
+        margin-left: 7vw;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+}
 
 
 
@@ -1013,7 +1051,7 @@ body{
     .leisure{
         text-align: center;
         font-size: 7vh;
-        margin-top: 22vh;
+        margin-top: 3vh;
     }
     .leisure_grid{
         display: grid;
@@ -1196,6 +1234,7 @@ body{
         border-radius: 0.2em;
         background-color: #5577B4;
         color: white;
+        width: 12vw;
     }
     .statistics{
         display: grid;
@@ -1207,6 +1246,9 @@ body{
         left: 0;
         margin-right: 3vw;
         margin-right: 2vw;
+    }
+    .no_statistics_five{
+        display: none;
     }
     .statistic_name{
         font-size: 3vh;

@@ -29,6 +29,9 @@ body{
 .carousel_img{
     height: 88vh;
 }
+.branded_text{
+    color: #0353e7;
+}
 /* .navbar{
     display: flex;
     height: 15vh;
