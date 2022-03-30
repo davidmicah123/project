@@ -11,7 +11,7 @@ const interval1 = setInterval(() => {
     if(current1 == to_count1) clearInterval(interval1);
 }, 10);
 
-const to_count2 = 52;
+const to_count2 = 100;
 const to_count2_el = document.getElementById("number_count2");
 
 let current2 = 0;
@@ -20,10 +20,10 @@ const interval2 = setInterval(() => {
     current2 = current2 + (((to_count2 - current2) >= 3) ? 3 : to_count2 - current2);
     to_count2_el.innerHTML = current2;
     if(current2 == to_count2) clearInterval(interval2);
-}, 10);
+}, 100);
 
 
-const to_count3 = 1000;
+const to_count3 = 7000;
 const to_count3_el = document.getElementById("number_count3");
 
 let current3 = 0;
@@ -35,7 +35,7 @@ const interval3 = setInterval(() => {
 }, 100);
 
 
-const to_count4 = 5000;
+const to_count4 = 10000;
 const to_count4_el = document.getElementById("number_count4");
 
 let current4 = 0;

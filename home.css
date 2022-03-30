@@ -5,6 +5,7 @@
 body{
     scroll-behavior: smooth;
     margin-top: 12vh;
+    overflow-x: hidden;
 }
 .brand{
 }
@@ -522,7 +523,8 @@ body{
     height: 6vh;
 }
 .send{
-    width: 10vw;
+    width: 7vw;
+    height: 6vh;
     padding: 1vh;
     border: 0;
     border-radius: 0.2em;
@@ -584,22 +586,43 @@ body{
 
 
 
-@media (max-width: 500px) {
+
+
+
+
+
+
+
+
+@media (max-width: 850px){
     *{
         margin: 0;
         padding: 0;
     }
     body{
+        margin-top: 18vh;
+    }
+    .banner{
+        top: 22vh;
+    }
+    html{
         overflow-x: hidden;
         max-width: 100%;
+        /* display: none; */
     }
-    .navbar{
-        width: 100vw;
-        max-width: 500px;
+    .navbar-brand{
+        font-size: 5VW;
+    }
+    nav{
+        width: 100%;
+        max-width: 100%;
         position: fixed;
         height: 15vh;
         color: white;
         z-index: 1;
+    }
+    .navbar{
+        height: 18vh;
     }
     .collapse{
         background-color: white;
@@ -615,18 +638,22 @@ body{
     .brief_intro{
         margin-bottom: 5vh;
         display: grid;
-        grid-template-columns:  1fr;
+        grid-template-columns:  1fr 0.7fr 1fr;
         width: 100%;
-        grid-gap: 1vw;
+        grid-gap: vw;
+        margin-left: 1vw;
+    }
+    .brief_text{
+        
     }
     .hint_img1{
-        width: 100%;
+        width: 35%;
     }
     .hint_img2{
-        width: 100%;
+        width: 35%;
     }
     .hint_img{
-        width: 70vw;
+        width: 35vw;
         height: 45vh;
         overflow: hidden;
         transition: all 0.5s;
@@ -635,6 +662,9 @@ body{
     .hint_img1 img:hover{
         transform: scale(1.03);
         cursor: pointer;
+    }
+    .grid_lists{
+        display: none;
     }
     .about_hint{
         display: grid;
@@ -668,7 +698,7 @@ body{
     .leisure{
         text-align: center;
         font-size: 7vh;
-        margin-top: 70vh;
+        margin-top: 10vh;
     }
     .leisure_grid{
         display: grid;
@@ -681,16 +711,24 @@ body{
         width: 45vw;
         height: 30vh;
     }
+    .services{
+        background: #F8F9FA;
+        padding: vh;
+        padding-left: 0;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        padding-right: 2vw;
+    }
     .activity_grid1{
         display: grid;
-        grid-template-columns:   1fr;
+        grid-template-columns:   1fr 1fr;
         width: 80%;
         grid-gap: 2vw;
         margin-left: vw;
     }
     .activity_grid2{
         display: grid;
-        grid-template-columns:   1fr;
+        grid-template-columns:   1fr 1fr;
         width: 80%;
         grid-gap: 2vw;
         margin-left: vw;
@@ -736,7 +774,7 @@ body{
         padding: 1vh;
     }
     .news_img{
-        width: 27vw;
+        width: 43vw;
         transition: 2s;
     }
     .news-card1 img:hover{
@@ -776,7 +814,7 @@ body{
         display: grid;
         grid-template-columns:  1fr;
         width: 97vw;
-        margin-left: 1vw;
+        margin-left: 0.7vw;
         margin-top: 10vh;
         margin-bottom: 10vh;
     }
@@ -794,8 +832,330 @@ body{
     .audio_grid2 h1{
         font-size: 3vh;
     }
+    .audio_power p{
+        padding: 1vw;
+        margin-right: 1vw;
+    }
+    .audio_power_fraim{
+        text-align: center;
+    }
     .audio_pics{
-        width: 80vw;
+        width: 90vw;
+    }
+    
+    .email_grid h1{
+        font-size: 4vh;
+    }
+    .subscribe_text{
+        font-size: 3vh;
+    }
+    .email_form{
+        position: relative;
+        top: 5vh;
+        left: 3vw;
+    }
+    .email_input{
+        width: 30vw;
+        height: 6vh;
+    }
+    .send{
+        width: 10vw;
+        padding: 1vh;
+        border: 0;
+        border-radius: 0.2em;
+        background-color: #5577B4;
+        color: white;
+    }
+    .statistics{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 80%;
+        grid-gap: 2vw;
+        position: relative;
+        top: 5vh;
+        margin-right: 3vw;
+        margin-top: 35vh;
+    }
+    .reserved_rights{
+        display: none;
+        margin-bottom: 7vh;
+    }
+    .footer{
+        width: 100%;
+        padding-bottom: 7vh;
+    }
+    .all_list{
+        padding-left: 5vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        overflow-x: hidden;
+        max-width: 100%;
+        /* display: none; */
+    }
+    .navbar-brand{
+        font-size: 5VW;
+    }
+    nav{
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 15vh;
+        color: white;
+        z-index: 1;
+    }
+    .collapse{
+        background-color: white;
+        padding: 5vw;
+    }
+    .slide{
+        width: 100%;
+    }
+    .carousel_img{
+        width: 100%;
+        height: 100vh;
+    }
+    .brief_intro{
+        margin-bottom: 5vh;
+        display: grid;
+        grid-template-columns:  1fr;
+        width: 100%;
+        grid-gap: 1vw;
+    }
+    .hint_img1{
+        width: 100%;
+    }
+    .hint_img2{
+        width: 100%;
+    }
+    .hint_img{
+        width: 90vw;
+        height: 45vh;
+        overflow: hidden;
+        transition: all 0.5s;
+        margin-left: 3vw;
+    }
+    .hint_img1 img:hover{
+        transform: scale(1.03);
+        cursor: pointer;
+    }
+    .about_hint{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90vw;
+        margin-left: 3vw;
+        grid-gap: 3vw;
+        height: 80vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .about_heading{
+        font-size: 4vh;
+    }
+    .about_card1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .about_card2{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        padding-top: 5vh;
+    }
+    .about_video{
+        width: 85vw;
+        margin-left: vw;
+        margin-right: 7vw;
+        margin-top: 0;
+    }
+    .leisure{
+        text-align: center;
+        font-size: 7vh;
+        margin-top: 22vh;
+    }
+    .leisure_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 95vw;
+        margin-left: 2vw;
+        grid-gap: 1vw;
+    }
+    .flip_edge_1{
+        width: 45vw;
+        height: 30vh;
+    }
+    .services{
+        background: #F8F9FA;
+        padding: vh;
+        padding-left: 0;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        padding-right: 2vw;
+    }
+    .activity_grid1{
+        display: grid;
+        grid-template-columns:   1fr 1fr;
+        width: 80%;
+        grid-gap: 2vw;
+        margin-left: vw;
+    }
+    .activity_grid2{
+        display: grid;
+        grid-template-columns:   1fr 1fr;
+        width: 80%;
+        grid-gap: 2vw;
+        margin-left: vw;
+    }
+    .hint_text{
+        width: 100%;
+    }
+    .no_grid{
+        display: none;
+    }
+    .activity_card_1{
+        width: 45vw;
+        height: 40vh;
+        padding: 2vh;
+    }
+    .social_media_connection{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 1vw;
+        width: 97vw;
+        margin-left: 4vw;
+    }
+    .social_media_img{
+        width: 90vw;
+    }
+    .connection_text{
+        display: grid;
+        grid-template-columns:  1fr;
+        align-content: center;
+    }
+    
+    .news_grid{
+        display: grid;
+        grid-template-columns:   1fr 1fr;
+        grid-gap: 2vw;
+        width: 85vw;
+        margin-left: 6vw;
+        margin-top: 5vh ;
+        margin-bottom: 5vh;
+    }
+    .news-card1{
+        width: 45vw;
+        padding: 1vh;
+    }
+    .news_img{
+        width: 43vw;
+        transition: 2s;
+    }
+    .news-card1 img:hover{
+        transform: scale(0.97);
+        cursor: pointer;
+    }
+
+    .news_heading{
+        padding-top: 2vh;
+        font-size: 3vh;
+    }
+    .news_writter{
+        font-size: 2vh;
+        color: #999999;
+    }
+    .main_news{
+        margin-top: 2vh;
+        color: #999999;
+        font-size: 2.5vh;
+    }
+
+    .blog_header{
+        position: relative;
+        top: 40vh;
+        text-align: center;
+    }
+    .blogger{
+        position: relative;
+        top: 40vh;
+        text-align: center;
+        font-size: 5vh;
+    }
+    .connect{
+        font-size: 5vh;
+    }
+    .audio_power_div{
+        display: grid;
+        grid-template-columns:  1fr;
+        width: 97vw;
+        margin-left: 0.7vw;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .audio_grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 97vw;
+        align-content: center;
+    }
+    .audio_power_brand{
+        color: #0353e7;
+        font-size: 3vh;
+        font-weight: bolder;
+    }
+    .audio_grid2 h1{
+        font-size: 3vh;
+    }
+    .audio_power p{
+        padding: 1vw;
+        margin-right: 1vw;
+    }
+    .audio_power_fraim{
+        text-align: center;
+    }
+    .audio_pics{
+        width: 90vw;
     }
     .sub{
         background-image: url("images/crystal2.jpg");
@@ -806,7 +1166,7 @@ body{
         margin-bottom: 2vh;
         padding: 4vh 0;
         color: white;
-        width: 90%;
+        width: 100%;
         height: 50vw;
     }
     .email_subscription{
@@ -839,14 +1199,25 @@ body{
     }
     .statistics{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 70vw;
+        grid-template-columns: 1fr 1fr 1fr ;
+        width: 80%;
+        grid-gap: 2vw;
+        position: absolute;
+        top: 294vh;
+        left: 0;
+        margin-right: 3vw;
+        margin-right: 2vw;
+    }
+    .no_five_hundred{
+        display: none;
     }
     .reserved_rights{
-        width: 20vw;
+        display: none;
+        margin-bottom: 7vh;
     }
     .footer{
-        width: 90vw;
+        width: 100%;
+        padding-bottom: 7vh;
     }
     .all_list{
         padding-left: 5vw;
@@ -858,42 +1229,35 @@ body{
 
 
 
-@media (max-width: 700px) {
-    body{
-        overflow-x: hidden;
-        max-width: 100vw;
-    }
-    .navbar{
-        width: 100%;
-    }
-    .audio_power_div{
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-gap: 1vw;
-        width: 80vw;
-        margin-left: 7vw;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-    }
-    .about_hint{
-        display: grid;
-        grid-template-columns:  1fr;
-        width: 80vw;
-        margin-left: 6vw;
-        grid-gap: 3vw;
-        height: 80vh;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-    }
-    .no_grid{
-        display: none;
-    }
-    
-    .social_media_connection{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1vw;
-        width: 80vw;
-        margin-left: 4vw;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
