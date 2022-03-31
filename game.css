@@ -118,7 +118,7 @@ body{
 
 
 .footer{
-    height: 75vh;
+    height: 87vh;
     background-color: rgb(216, 213, 213);
     padding-top: 5vh;
 }
@@ -136,5 +136,27 @@ body{
     padding: 2vh;
     position: relative;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
+
 }
 
+
+
+
+
+@media (max-width: 1000px) {
+    .no_btn{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 15vh;
+        color: white;
+        z-index: 1;
+        background-color: white;
+    }
+    .collapse{
+        background-color: white;
+    }
+}

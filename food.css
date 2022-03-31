@@ -14,7 +14,7 @@ body{
     height: 12vh;
 }
 .navbar-brand{
-    font-size: 5vh;
+    font-size: 10vh;
     padding-left: 3vw;
     padding-bottom: 2vh;
     z-index: 2;
@@ -35,6 +35,10 @@ body{
 .blog_header{
     font-size: 15vh;
     text-align: center;
+    color: white;
+    position: absolute;
+    top: 10vh;
+    left: 33vw;
 }
 .blogger{
     font-size: 5vh;
@@ -133,3 +137,22 @@ body{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.11);
 }
 
+
+
+@media (max-width: 1000px) {
+    .no_btn{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 15vh;
+        color: white;
+        z-index: 1;
+        background-color: white;
+    }
+    .collapse{
+        background-color: white;
+    }
+}
