@@ -77,7 +77,7 @@ function createBox(item) {
 
     // Add active effect
     box.classList.add('active');
-    setTimeout(() => box.classList.remove('active'), 800);
+    setTimeout(() => box.classList.remove('active'), 100);
   });
 
   main.appendChild(box);
