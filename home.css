@@ -440,6 +440,10 @@ body{
 
 .testimonial{
     background-color: #5577B4;
+    background-image: url('images/cup.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 5vh 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -449,6 +453,7 @@ body{
 }
 .testimonial_heading{
     text-align: center;
+    color: white;
 }
 .happy_students{
     text-align: center;
@@ -461,8 +466,11 @@ body{
     margin-left: 10%;
 }
 .testimony_given{
-    color: #FFFFFF80;
+    color: #ffffffd0;
     font-size: 3vh;
+}
+.testifier_name{
+    color: white;
 }
 
 
@@ -550,6 +558,11 @@ body{
 }
 .connect{
     font-size: 5vh;
+}
+.social_icons{
+    width: 5vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
 }
 
 

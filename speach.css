@@ -181,16 +181,61 @@ main {
   main {
     grid-template-columns: repeat(3, 1fr);
   }
+  .no_btn{
+    display: none;
+}
+nav{
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    height: 15vh;
+    color: white;
+    z-index: 1;
+    background-color: white;
+}
+.collapse{
+    background-color: white;
+}
 }
 
 @media (max-width: 760px) {
   main {
     grid-template-columns: repeat(2, 1fr);
   }
+  .no_btn{
+    display: none;
+}
+nav{
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    height: 15vh;
+    color: white;
+    z-index: 1;
+    background-color: white;
+}
+.collapse{
+    background-color: white;
+}
 }
 
 @media (max-width: 500px) {
   main {
     grid-template-columns: 1fr;
   }
+  .no_btn{
+    display: none;
+}
+nav{
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    height: 15vh;
+    color: white;
+    z-index: 1;
+    background-color: white;
+}
+.collapse{
+    background-color: white;
+}
 }

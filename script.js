@@ -9,7 +9,7 @@ const interval1 = setInterval(() => {
     current1 = current1 + (((to_count1 - current1) >= 39) ? 39 : to_count1 - current1);
     to_count1_el.innerHTML = current1;
     if(current1 == to_count1) clearInterval(interval1);
-}, 10);
+}, 100);
 
 const to_count2 = 100;
 const to_count2_el = document.getElementById("number_count2");
@@ -32,7 +32,7 @@ const interval3 = setInterval(() => {
     current3 = current3 + (((to_count3 - current3) >= 19) ? 19: to_count3 - current3);
     to_count3_el.innerHTML = current3;
     if(current3 == to_count3) clearInterval(interval3);
-}, 100);
+}, 200);
 
 
 const to_count4 = 10000;
