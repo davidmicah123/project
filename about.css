@@ -199,7 +199,6 @@ body{
     border-top-right-radius: 1em;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    height: 90vh;
     width: 100%;
 }
 .card2{
@@ -207,7 +206,6 @@ body{
     border-top-right-radius: 1em;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    height: 90vh;
     width: 100%;
 }
 .card3{
@@ -215,7 +213,6 @@ body{
     border-top-right-radius: 1em;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    height: 90vh;
     width: 100%;
 }
 .card1image1{
@@ -341,7 +338,6 @@ body{
 }
 .activity_card_1{
     width: 25vw;
-    height: 45vh;
     text-align: center;
     border-radius: 0.2em;
     border: 1px solid black;
@@ -507,9 +503,49 @@ body{
 }
 
 
+@media (max-width: 870px) {
+    .activity_grid1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin-left: 0vw;
+        grid-gap: vw;
+    }
+    .activity_grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin-left: 0vw;
+        grid-gap: 1vw;
+    }
+    .activity_card_1{
+        width: 30vw;
+        text-align: center;
+        border-radius: 0.2em;
+        border: 1px solid black;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 2vh;
+    }
+    .no_card{
+        display: none;
+    }
+}
 
 
-
+@media (max-width: 800px) {
+    .supercontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 2%;
+        width: 95%;
+        grid-gap: 2%;
+        display: border-box;
+    }
+    .no_card{
+        display: none;
+    }
+}
 
 
 
@@ -611,7 +647,6 @@ body{
     }
     .activity_card_1{
         width: 45vw;
-        height: 45vh;
         text-align: center;
         border-radius: 0.2em;
         border: 1px solid black;
@@ -627,5 +662,43 @@ body{
     }
     .subscribe_text{
         font-size: 3vh;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .supercontainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 2%;
+        width: 95%;
+        grid-gap: 2%;
+        display: border-box;
+    }
+    .statistics{
+        display: none;
+    }
+    .activity_grid1{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-left: 0vw;
+        grid-gap: 1vw;
+    }
+    .activity_grid2{
+        display: none;
+    }
+    .no_leader_img{
+        display: none;
+    }
+    
+    .activity_card_1{
+        width: 100%;
+        text-align: center;
+        border-radius: 0.2em;
+        border: 1px solid black;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 2vh;
     }
 }
