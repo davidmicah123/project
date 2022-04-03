@@ -14,7 +14,7 @@ body{
     height: 12vh;
 }
 .navbar-brand{
-    font-size: 10vh;
+    font-size: 15vh;
     padding-left: 3vw;
     padding-bottom: 2vh;
     z-index: 2;
@@ -22,9 +22,8 @@ body{
     font-weight: bolder;
     color: #0353e7;
 }
-
 .hero_image{
-    background-image: url('images/hero_2.jpg');
+    background-image: url('images/blog2.jpg');
     width: 100%;
     height: 80vh;
     background-size: cover;
@@ -104,6 +103,9 @@ body{
     font-size: 5vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
+}
+.all_links:hover{
+    color: white;
 }
 
 

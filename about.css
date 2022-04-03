@@ -542,6 +542,9 @@ body{
         grid-gap: 2%;
         display: border-box;
     }
+    .growth{
+        font-size: 3vh;
+    }
 }
 
 
@@ -683,6 +686,9 @@ body{
         grid-gap: 2%;
         display: border-box;
     }
+    .carousel_img{
+        height: 60vh;
+    }
     .statistics{
         display: none;
     }
@@ -696,9 +702,7 @@ body{
     .activity_grid2{
         display: none;
     }
-    .no_leader_img{
-        display: none;
-    }
+    
     
     .activity_card_1{
         width: 100%;
@@ -708,5 +712,64 @@ body{
         margin-top: 3vh;
         margin-bottom: 3vh;
         padding: 2vh;
+    }
+    .leader_images1{
+        top: 7.5vh;
+        left: 17vw;
+    }
+    .the_five{
+        display: none;
+    }
+    .leader1{
+        width: 15vw;
+    }
+    .not{
+        display: none;
+    }
+    .sub{
+       height: 50vh;
+    }
+    .email_subscription{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80vw;
+        margin-left: 8vw;
+    }
+    .email_grid h1{
+        font-size: 4vh;
+    }
+    .subscribe_text{
+        font-size: 3vh;
+    }
+    .email_form{
+        position: relative;
+        top: 5vh;
+        left: 3vw;
+    }
+    .email_input{
+        width: 55vw;
+        height: 6vh;
+    }
+    .send{
+        width: 12vw;
+        padding: 1vh;
+        border: 0;
+        border-radius: 0.2em;
+        background-color: #5577B4;
+        color: white;
+    }
+
+    .card1{
+
+    }
+    .no_footer{
+        display: none;
+    }
+    .all_list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .activity_card_1{
+        margin-left: 4vw;
     }
 }
