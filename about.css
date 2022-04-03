@@ -527,23 +527,20 @@ body{
         margin-bottom: 3vh;
         padding: 2vh;
     }
-    .no_card{
+    /* .no_card{
         display: none;
-    }
+    } */
 }
 
 
 @media (max-width: 800px) {
     .supercontainer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-left: 2%;
         width: 95%;
         grid-gap: 2%;
         display: border-box;
-    }
-    .no_card{
-        display: none;
     }
 }
 
@@ -662,6 +659,17 @@ body{
     }
     .subscribe_text{
         font-size: 3vh;
+    }
+    .supercontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 2%;
+        width: 95%;
+        grid-gap: 2%;
+        display: border-box;
+    }
+    .no_card{
+        display: none;
     }
     
 }

@@ -598,6 +598,11 @@ body{
 
 
 
+
+
+
+
+
 @media (max-width: 1000px) {
     *{
         margin: 0;
@@ -636,6 +641,25 @@ body{
         margin-left: 7vw;
         margin-top: 10vh;
         margin-bottom: 10vh;
+    }
+    .growth{
+        font-size: 3vh;
+        color: black;
+    }
+    .activity_card_text{
+        color: #999999;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+        font-size: 2vh;
+    }
+    .no_testimony{
+        display: none;
+    }
+    .testimonial_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 10vw;
+        margin-top: 3vh;
     }
 }
 
@@ -925,7 +949,7 @@ body{
         position: relative;
         top: 5vh;
         margin-right: 3vw;
-        margin-top: 35vh;
+        margin-top: 5vh;
     }
     .reserved_rights{
         display: none;
@@ -940,6 +964,18 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         width: 90vw;
+    }
+    .help{
+        height: 50vh;
+    }
+    .help_text{
+        font-size: 4vh;
+    }
+    .help_content{
+        text-align: center;
+        position: relative;
+        color: white;
+        top: 17vh;
     }
 }
 
@@ -1282,6 +1318,18 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         width: 90vw;
+    }
+    .help{
+        height: 50vh;
+    }
+    .help_text{
+        font-size: 4vh;
+    }
+    .help_content{
+        text-align: center;
+        position: relative;
+        color: white;
+        top: 17vh;
     }
 }
 
