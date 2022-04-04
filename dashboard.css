@@ -5,6 +5,10 @@
 .table, td {
     padding: 2vh;
 }
+.all_timetable{
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
 .days{
     font-size: 4vh;
     font-weight: bold;
@@ -12,4 +16,76 @@
 .timetable{
     text-align: center;
     font-size: 5vh;
+}
+
+.modify_monday{
+    border: 0;
+    color: white;
+    background-color: rgba(46, 46, 211, 0.808);
+    padding: 1vh;
+    border-radius: 0.2em;
+    height: 8vh;
+    margin-bottom: 1vh;
+}
+.modify_tuesday{
+    border: 0;
+    color: white;
+    background-color: rgba(46, 46, 211, 0.808);
+    padding: 1vh;
+    border-radius: 0.2em;
+    height: 8vh;
+    margin-top: 1vh;
+}
+.modify_wednesday{
+    border: 0;
+    color: white;
+    background-color: rgba(46, 46, 211, 0.808);
+    padding: 1vh;
+    border-radius: 0.2em;
+    height: 8vh;
+    margin-top: 2vh;
+}
+.modify_thursday{
+    border: 0;
+    color: white;
+    background-color: rgba(46, 46, 211, 0.808);
+    padding: 1vh;
+    border-radius: 0.2em;
+    height: 8vh;
+    margin-top: 3vh;
+}
+.modify_friday{
+    border: 0;
+    color: white;
+    background-color: rgba(46, 46, 211, 0.808);
+    padding: 1vh;
+    border-radius: 0.2em;
+    height: 8vh;
+    margin-top: 2vh;
+}
+.modify_saturday{
+    border: 0;
+    color: white;
+    background-color: rgba(46, 46, 211, 0.808);
+    padding: 1vh;
+    border-radius: 0.2em;
+    height: 8vh;
+    margin-top: 2vh;
+}
+.modify_sunday{
+    border: 0;
+    color: white;
+    background-color: rgba(46, 46, 211, 0.808);
+    padding: 1vh;
+    border-radius: 0.2em;
+    height: 8vh;
+    margin-top: 2vh;
+}
+
+.modification{
+    position: absolute;
+    left: 65vw;
+    top: 18vh;
+    height: 7vh;
+    margin-top: 1vh;
 }
