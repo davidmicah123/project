@@ -500,6 +500,10 @@ body{
     .services{
         margin-top: 0;
     }
+    .collapse{
+        background-color: white;
+        padding: 5vw;
+    }
 }
 
 
@@ -544,6 +548,9 @@ body{
     }
     .growth{
         font-size: 3vh;
+    }
+    .activity_card_text{
+        font-size: 2vh;
     }
 }
 
@@ -771,5 +778,8 @@ body{
     }
     .activity_card_1{
         margin-left: 4vw;
+    }
+    .about_heading{
+        font-size: 3vh;
     }
 }

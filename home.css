@@ -614,6 +614,10 @@ body{
     .banner{
         top: 22vh;
     }
+    .collapse{
+        background-color: white;
+        padding: 5vw;
+    }
     html{
         overflow-x: hidden;
         max-width: 100%;
@@ -1368,10 +1372,25 @@ body{
 
 
 
+@media (max-width: 450px) {
+        
+
+    .activity_grid1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .activity_grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .activity_card_1{
+        width: 100%;
+        margin-left: 7vw;
+    }
 
 
-
-
+}
 
 
 

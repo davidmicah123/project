@@ -1,148 +1,151 @@
-*{
-    padding: 0;
-    margin: 0;
+.box1{
+    border: 1px solid black;
+    background-color: black;
+    height: 50px;
 }
-body{
-    background-color: #f4f4f4d7;
-    scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: #6969dd #e0e0e0;
+ul{
+    float: left;
+    color: darkgoldenrod
 }
-.container{
-    margin-left: 20vw;
-    margin-top: 10vh;
-    background-color: white;
-    padding: 3vh;
-    width: 63vw;
-    border-radius: 0.5em;
+ul li{
+    margin-top: 10px;
+    float: left;
+    position: relative;
+    left: 300%;
+    width: 100px;
+    font-size: 14px;
+    font-family: barlow condensed,sans-serif;
+    list-style-type: none;
 }
-.customer_info{
-    margin-top: 1vh;
+ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+h5{
+    margin-top: 1px;
+    color: darkblue;
+    margin: 7px 12px;
+    position: relative;
+    left: -18%;
+    font-family: barlow condensed,sans-seriff;
+    text-transform: uppercase;
+    font-size: 14px;
     font-weight: normal;
-    font-size: 5vh;
-    text-align: center;
 }
-.shopping_address{
-    margin-top: 1vh;
-    margin-bottom:  vh;
-    font-size: 5vh;
+.subbox{
+    border: 1px solid transparent;
+    background-color: grey;
+    height: 50px;
 }
-.email_address{
-    width: 59vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+ol li{
+    float: left;
+    width: 90px;
+    position: relative;
+    left: 25%;
+    list-style-type: none;
+    font-family: barlow condensed, sans-serif;
+    font-size: 18px;
+    margin-right: 4vw;
 }
-.first_name{
-    width: 29vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+ol li a{
+    text-decoration: none;
+    color: black;
 }
-.last_name{
-    width: 28.55vw;
-    height: 7vh;
-    margin-left: 2vw;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+ol li a:hover{
+    border-bottom: 4px solid darkblue;
+    border-top: 4px solid darkblue;
+    border-left: solid darkblue;
+    border-right: solid darkblue;
 }
-.company{
-    width: 59vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+.fa-search{
+    position: absolute;
+    left: 82%;
+    top: 9%;
+    color: darkblue;
 }
-.address{
-    width: 59vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+.fa-user{
+    position: absolute;
+    left: 82%;
+    top: 9%;
+    color: darkblue;
 }
-.appartment{
-    width: 59vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+.fa-shopping-cart{
+    position: absolute;
+    left: 82%;
+    top: 9%;
+    color: darkblue;
+    width: 25px;
+    height: -30px;
+    border-radius: 100px;
+    background-color: navajowhite;
+    margin-top: -2px;
+    margin-left: -4px;
+    text-align: left;
 }
-.zipcode{
-    width: 18.2vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+h2{
+   position: relative;
+    left: -35.8%;
+    text-transform: uppercase;
+    font-family: barlow condensed, sans-serif;
+    margin-top: 3px;
+    font-weight: bolder;
 }
-.city{
-    width: 19vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
-    margin-left: 0.5vw;
+h1{
+    color: darkblue;
+    background-color: grey;
 }
-.state{
-    width: 19vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+font{
+    color: darkblue;
 }
-.phone_number{
-    width: 59vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
+.cover img{
+    background-size: cover;
+    height: 530px;
+    width: 1265px;
 }
-.country{
-    width: 59vw;
-    height: 7vh;
-    border-radius: 0.3em;
-    padding-left: 1vw;
-    margin: 1vh;
-    border: 2px solid black;
+.box2{
+    border: 1px solid black;
+    background-color: black;
+    height: 350px;
 }
-
-
-.submit{
-    padding: 1vh;
-    background-color: rgb(29, 116, 202);
-    border: 0;
-    border-radius: 0.3em;
-    width: 60vw;
-    margin-left: 0.5vw;
-    color: white;
-    font-size: 4vh;
-    font-weight: normal;
-    min-height: 7vh;
-    transition: 1s all;
-    margin-top: 1vh;
+h4{
+    background-color: grey;
+    color: darkblue;
 }
-.submit:hover{
-    background-color: rgba(29, 116, 202, 0.774);
+.thanks{
+    background-color: grey;
+    color: darkblue;
 }
-.agreement_box{
-    padding-top: 1vh;
-    margin-left: 0.5vw;
-    margin-right: 0.3vw;
+.male{
+    margin-top: 10px;
+    float: right;
+    right: 5000%;
+    width: 200px;
+    font-size: 14px;
+    font-family: barlow condensed,sans-serif;
+    list-style-type: none;
+    position: absolute;
+    top: 130%;
+    right: 2%;
+    color: darkblue;
 }
-.agreement_text{
-    font-size: 3vh;
+.female{
+    position: absolute;
+    top: 130%;
+    left: 2%; 
+    color: darkblue;
 }
-.strict{
-    color: green;
-    text-decoration: underline;
-
+.name{
+    position: absolute;
+    bottom: -180%;
+    left: 2%; 
+    color: darkblue;
 }
-
-
-
-.accordion{
-    background-color: white;
-    width: 60vw;
+.festive{
+    position: absolute;
+    bottom: 65%;
+    left: 15%; 
+    color: darkblue;
+    font-size: xx-large;
+    font-weight: bolder;
 }
+ 
