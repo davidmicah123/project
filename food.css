@@ -13,14 +13,14 @@ body{
     z-index: 1;
     height: 12vh;
 }
-.navbar-brand{
-    font-size: 15vh;
+.branded{
+    font-size: 7vh;
     padding-left: 3vw;
     padding-bottom: 2vh;
     z-index: 2;
     margin-right: 2vw;
     font-weight: bolder;
-    color: #0353e7;
+    color: black;
 }
 .hero_image{
     background-image: url('images/blog2.jpg');
